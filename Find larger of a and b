@@ -1,0 +1,56 @@
+
+ /**
+
+This program demonstrates the if statement.
+
+ */
+
+
+
+ public class Main
+
+ {
+
+ public static void main(String[] args)
+
+ {
+
+ int a, b, c, d, w, t, Max ; // To hold score #1
+
+
+
+ a=3;
+
+ b=4;
+
+ c=5;
+
+
+
+
+
+ // Get larger of two values using Maths libray method.
+
+ Max=Math.max(a, b);
+
+System.out.print("The large or a and b:");
+
+System.out.print(Max);
+
+ // Get the second score.
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+}

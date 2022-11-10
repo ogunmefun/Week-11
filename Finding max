@@ -1,0 +1,54 @@
+
+ /**
+
+This program demonstrates the if statement.
+
+ */
+
+
+
+ public class Main
+
+ {
+
+ public static void main(String[] args)
+
+ {
+
+ int a, b, c, d, w, t, Max ; // To hold score #1
+
+
+
+ a=3;
+
+ b=4;
+
+ c=5;
+
+ d=6;
+
+
+
+
+
+ // Get maximum of set a and b
+
+
+
+
+
+ int Max1=Math.max(a, b); 
+
+
+
+ // Get maximum of set c and d
+
+ int Max2=Math.max(c, d); 
+
+ Max=Math.max(Max1, Max2);
+
+System.out.print(Max);
+
+}
+
+}
