@@ -1,0 +1,66 @@
+
+
+public class Main
+
+
+
+ {
+
+
+
+ public static void main(String[] args)
+
+
+
+ {
+
+
+
+
+
+
+
+int[] balances = new int[5];
+
+Double Average;
+
+
+
+int sum = 0;
+
+
+
+for (int i=0;   i<balances.length; i++)
+
+
+
+{ balances[i] = i;
+
+int y = balances[i]; 
+
+sum=sum + y;
+
+System.out.println(y);
+
+
+
+
+
+}
+
+System.out.println("Sum is:");
+
+System.out.println(sum);
+
+
+
+Average=sum/5.0;
+
+System.out.println("Average is:");
+
+System.out.println(Average);
+
+}
+
+}
+
